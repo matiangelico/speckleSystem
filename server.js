@@ -4,6 +4,7 @@ const cors = require("cors");
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
+const path = require('path')
 //const { auth } = require("express-openid-connect");
 
 const defaultValuesRoutes = require("./api/routes/defaultValuesRoutes");
